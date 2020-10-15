@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Sibiappz_Ricacrdo_Proyect"
