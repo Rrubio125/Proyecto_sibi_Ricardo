@@ -11,6 +11,8 @@ class TestAdapter (context: Context) : RecyclerView.Adapter<ItemViewHolder>(){
     private val layoutInflater = LayoutInflater.from(context)
     private var itemList = listOf<Student>()
 
+    //List of Students
+
     fun setData(list: List<Student>){
         this.itemList = list
         notifyDataSetChanged()
